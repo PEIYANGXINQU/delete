@@ -53,7 +53,7 @@ public class DNProviderImpl implements DNProvider {
 
 			for (int i = 0; i < 100; i++) {
 				TextMessage tm = session
-						.createTextMessage("我是XX平台，我需要发送短信，短信内容是：content" + i);
+						.createTextMessage("我是XX平台，我需要发送短信1，短信内容是：content" + i);
 				messageProducer.send(tm);
 			}
 
