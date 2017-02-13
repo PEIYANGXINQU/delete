@@ -6,6 +6,7 @@ public class Test {
 		DNConsumer dnp = new DNConsumerImpl();
 		dnp.init();
 		dnp.getMessage("DN-JACK-QUEUE1");
+		System.out.println("This is branch2");
 	}
 
 }
