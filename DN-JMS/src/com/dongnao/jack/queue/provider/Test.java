@@ -6,6 +6,7 @@ public class Test {
 		DNProvider dnp = new DNProviderImpl();
 		dnp.init();
 		dnp.sendMessage("DN-JACK-QUEUE1");
+		System.out.println("I love money");
 	}
 
 }
